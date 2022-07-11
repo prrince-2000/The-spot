@@ -11,7 +11,8 @@ export default function SlideCard (){
     speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoPlay: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
     appendDots: (dots) => {
       return <ul style={{margin: "0px"}}>{dots}</ul>
     }

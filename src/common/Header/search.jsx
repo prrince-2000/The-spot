@@ -12,7 +12,9 @@ const Search = ({cartItem}) => {
       <section className="search">
         <div className="container c_flex">
           <div className="logo width">
+            <Link to ='/'>
               <span>The-Spot</span>
+            </Link>
           </div>
 
           <div className="search-box f_flex">
