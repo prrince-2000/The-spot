@@ -1,0 +1,20 @@
+.home{
+    margin-top: 20px;
+}
+.homeSlide h1{
+    font-size: 45px;
+}
+.homeSlide p{
+    margin: 20px 0;
+}
+.homeSlide ul {
+    position: absolute;
+    bottom: 20px;
+}
+.homeSlide ul li {
+    border: 1px  #b8b7b7;
+}
+.homeSlide .box  img{
+    width: 80%;
+    height: 90%;
+}
