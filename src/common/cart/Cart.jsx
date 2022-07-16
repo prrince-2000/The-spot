@@ -27,7 +27,7 @@ const Cart = ({cartItem, addToCart, decreasedQty}) => {
                   </div>
                   <div className="cart-items-function">
                     <div className="removeCart">
-                      <button className="removeCart">
+                      <button>
                       <i className="fas fa-times"></i>
                       </button>
                     </div>
@@ -35,7 +35,7 @@ const Cart = ({cartItem, addToCart, decreasedQty}) => {
                       <button className="inCart" onClick={() => addToCart(item)}>
                         <i className="fa fa-plus"></i>
                       </button>
-                      <button className="inCart" onClick={() => decreasedQty(item)}>
+                      <button className="desCart" onClick={() => decreasedQty(item)}>
                         <i className="fa fa-minus"></i>
                       </button>
                     </div>
@@ -51,7 +51,7 @@ const Cart = ({cartItem, addToCart, decreasedQty}) => {
                <h2>Cart Summary</h2>
               <div className="d_flex">
                 <h4>total Price :</h4>
-                <h4> ${totalPrice}.00 </h4>
+                <h3> ${totalPrice}.00 </h3>
               </div>
             </div>
           </div>
